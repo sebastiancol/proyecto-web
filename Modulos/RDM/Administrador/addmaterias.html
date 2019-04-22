@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-lg-6">
+        <form id="regdoc" name="regdoc">
+            <fieldset>
+                <legend>formulario de ingreso</legend>
+                <div class="form-group">
+                    <label for="nomest">Ingresar Estudiante</label>
+                    <input type="text" class="form-control"  pattern="[a-z A-z]" id="nomest" name="nomdoc" aria-describedby="nomestHelp" placeholder="Ingrese el Nombre">
+                    <small id="nomestHelp" class="form-text text-muted">El nombre del estudiante a ingresado</small>
+                </div>
+                <div class="form-group">
+                    <label for="apeest">Ingresar Apellido</label>
+                    <input type="text" class="form-control"  pattern="[a-z A-z]" id="apeest" name="apedoc" aria-describedby="apeestHelp" placeholder="Ingrese el Apellido">
+                    <small id="apeestHelp" class="form-text text-muted">El apellido del estudiante a ingresado</small>
+                </div>
+                <div class="form-group">
+                    <label for="ccdoc">Ingresar Cedula</label>
+                    <input type="text" class="form-control"  pattern="[3,9]" id="ccest" name="ccest" aria-describedby="ccestHelp" placeholder="Ingrese la cedula">
+                    <small id="ccestHelp" class="form-text text-muted">La cedula del estudiante a ingresado</small>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn btn-info">guardar</button>
+            <button type="reset" class="btn btn-succes">limpiar</button>    
+        </form>
+    </div>
+    <div class="col-lg-6">
+        <center><h3>ayuda</h3></center>
+    </div>
+        
+</div>
+    
