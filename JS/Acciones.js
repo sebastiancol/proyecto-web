@@ -95,7 +95,7 @@ $ (document).ready(function(){
         
         $("#menucara").click(function(){        
             planeta= $(this).html();    
-            var url= "Menu/carga.html";
+            var url= "Planetas/"+dequeplaneta+"/caracteristicas.html";
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#menus").html(data);
@@ -103,13 +103,26 @@ $ (document).ready(function(){
                 planetario(planeta);
             };
         Llamado(url,llevo,hacer);
-    });
-              
+        });
+        
+        $("#menufo").click(function(){        
+            planeta= $(this).html();    
+            var url= "Planetas/"+dequeplaneta+"/foto.html";
+            var llevo= "acceso=true";
+            var hacer=function(data){
+                $("#menus").html(data);
+                $("#Elplaneta").html("Usted esta en el planeta "+" "+planeta);
+                planetario(planeta);
+            };
+        Llamado(url,llevo,hacer);
+        });
+        
+        /*
         $("#menufo").click(function(){        
         Llamado("Planetas/"+dequeplaneta+"/foto.html","acceso=true",function(data){
             $("#menus").html(data);
         });
-        });
+        });*/
         
         $("#menuvi").click(function(){        
         Llamado("Planetas/"+dequeplaneta+"/video.html","acceso=true",function(data){

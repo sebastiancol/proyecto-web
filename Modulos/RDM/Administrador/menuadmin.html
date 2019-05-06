@@ -4,30 +4,49 @@
         <form id="regadmin" name="regadmin">
             <fieldset>
                 
-                <div class="form-group ">
-                    <button type="submit" class="btn btn-info">ESTUDIANTES</button>
+                <div class="form-group col-lg-  ">
+                    <label for="estudiantes" class="col-form-label">ESTUDIANTES</label>
+                    <button type="button" class="btn btn-success">ESTUDIANTES</button>
+                    <label for="estudiantes"></label>
+                    <select class="form-control" id="exampleSelect1">
+                        <option>Estudiantes Nuevos</option>
+                        <option>Estudiantes Antiguos</option>
+                    </select> 
                     <small class="form-text text-muted">Se accedera al menu estudiantes</small>
                 </div>    
-            </fieldset>
-            <fieldset>
-                <div class="form-group ">
-                    <button type="submit" class="btn btn-info">DOCENTES</button>
+            
+                <div class="form-group col-lg-  ">
+                    <label class="control-label" for="disabledInput">DOCENTES</label>
+                    <button type="button" class="btn btn-success">DOCENTES</button>
+                    <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
                     <small class="form-text text-muted">Se accedera al menu docentes</small>
-                </div> 
-            </fieldset>    
-            <fieldset>
-                <div class="form-group ">
-                    <button type="submit" class="btn btn-info">MATERIAS</button>
-                    <small class="form-text text-muted">Se accedera al menu materias</small>
                 </div>
-            </fieldset>
-            <fieldset>
-                <div class="form-group ">
-                    <button type="submit" class="btn btn-info">INSCRITO</button>
+            
+                <div class="form-group col-lg- ">
+                    <label for="materias">MATERIAS</label>
+                    <button type="button" class="btn btn-success">MATERIAS</button>
+                    <label for="materias">seleccione carrera</label>
+                    <select class="form-control" id="exampleSelect1">
+                        <option>Ingenieria de Sistemas</option>
+                        <option>Admon Empresas</option>
+                        <option>Ingenieria Electronica</option>
+                    </select>  
+                    <small class="form-text text-muted">Se accedera al menu materias</small>
+                </div>  
+            
+                <div class="form-group col-lg- ">
+                    <label for="materias">INSCRITOS</label>
+                    <button type="submit" class="btn btn-success">INSCRITOS</button>
                     <small class="form-text text-muted">Se accedera al menu inscritos</small>
                 </div>
-            </fieldset>
-              
+            
+                    
+                <button type="button" class="btn btn-success btn-sm">GUARDAR</button>
+                <button type="button" class="btn btn-info btn-sm">MODIFICAR</button>
+                <button type="button" class="btn btn-warning btn-sm">ELIMINAR</button>
+                <button type="button" class="btn btn-outline-danger btn-sm">CANCELAR</button>
+                    
+            </fieldset>  
         </form>
     </div>
     

@@ -5,7 +5,7 @@
         $.ajax({
             url: donde,
             data: quellevo,
-            type: 'GET',
+            type: 'POST',
             dataType: 'html',            
             success: function (data) {
               hacer(data);  
@@ -18,19 +18,19 @@
     } 
     
     $("#Estudiantes").click(function(){        
-            var url= "RDM/Administrador/opciones2.html";
+            var url= "RDM/Estudiantes/index.html";
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#rdm").html(data);
-                Estudiantes();
+                Docentes();
             };
         Llamado(url,llevo,hacer);
     });
     
-    function Estudiantes(){
-        $("#AddEstudiantes").click(function(){
+    function Docentes(){
+        $("#ADDEstudiantes").click(function(){
              
-            var url= "RDM/Administrador/addestudiante.html";
+            var url= "RDM/Estudiantes/addestudiantes.html";
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#rdm").html(data);
@@ -39,10 +39,31 @@
         Llamado(url,llevo,hacer);
     });
     
+    $("#DeleteEstudiantes").click(function(){
+             
+            var url= "RDM/Estudiantes/deleteestudiantes.html";
+            var llevo= "acceso=true";
+            var hacer=function(data){
+                $("#rdm").html(data);
+                
+            };
+        Llamado(url,llevo,hacer);
+    });
+    
+    $("#ChangeEstudiantes").click(function(){
+             
+            var url= "RDM/Estudiantes/changeestudiantes.html";
+            var llevo= "acceso=true";
+            var hacer=function(data){
+                $("#rdm").html(data);
+                
+            };
+        Llamado(url,llevo,hacer);
+    });
     
     $("#ListEstudiantes").click(function(){
              
-            var url= "RDM/Administrador/listestudiantes.html";
+            var url= "RDM/Estudiantes/listestudiantes.html";
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#rdm").html(data);
@@ -54,11 +75,11 @@
     }
     function idEstudiante(){
         var id=o;
-        var limite2=localstorage.length;
+        var limite=localstorage.length;
         try{
-           for(var i=0;i<limite2;i++){
+           for(var i=0;i<limite;i++){
             var key= localstorage.key(i); 
-            var objeto= JSON.parse(localstorage.setItem(key));
+            var objeto= JSON.parse(localstorage.getItem(key));
             if(obj.type=="est"){
                if(obj.id>id){
                   id=obj;
@@ -71,36 +92,36 @@
         
         return id;
     }
-    function registarEstudiante (){
+    function registarDocente (){
         $("#regdoc").validate({
            rules:{
-              nomest:{
+              nomdoc:{
                   required:true,
                   rangelenght:[3,20]
               } ,
-              apeest:{
+              apedoc:{
                   required:true,
                   rangelenght:[3,20]
               } ,
-              ccest:{
+              ccdoc:{
                   required:true,
                   rangelenght:[6,10]
               } 
            }, 
            submitHandler:function(){
                var iddo=idDocente();
-               var estudiante={
+               var docente={
                  id:iddo(),
                  nom:$("#nomest").val(),  
                  ape:$("#apeest").val(),
                  cc:$("#ccest").val(),
                  type:"est"
                };
-               localstorage.setItem("est",iddo,JSON.stringify(estudiante));
-               $("#nomest").val("");
-               $("#apeest").val("");
-               $("#ccest").val("");
-               alert("El estudiante"+estudiante.nom+"fue almacenado");
+               localstorage.setItem("doc",iddo,JSON.stringify(docente));
+               $("#nomdoc").val("");
+               $("#apedoc").val("");
+               $("#ccdoc").val("");
+               alert("El estudiante"+docente.nom+"fue almacenado");
            }
         });
     }

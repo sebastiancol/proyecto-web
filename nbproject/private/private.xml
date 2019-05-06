@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>Modulos/Menu/carga.html</url>
+            <bookmark id="1">
+                <name/>
+                <line>5</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/CRUD/Modulos/index.html</file>
-            <file>file:/C:/xampp/htdocs/CRUD/Modulos/RDM/Docentes/index.html</file>
+            <file>file:/C:/xampp/htdocs/CRUD/Modulos/Menu/carga.html</file>
             <file>file:/C:/xampp/htdocs/CRUD/JS/LogicaDocentes.js</file>
-            <file>file:/C:/xampp/htdocs/CRUD/Modulos/RDM/Docentes/adddocentes.html</file>
+            <file>file:/C:/xampp/htdocs/CRUD/JS/Acciones.js</file>
+            <file>file:/C:/xampp/htdocs/CRUD/Modulos/RDM/Administrador/adddocentes.html</file>
         </group>
     </open-files>
 </project-private>

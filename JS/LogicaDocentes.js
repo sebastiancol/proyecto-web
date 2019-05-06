@@ -23,6 +23,7 @@
             var hacer=function(data){
                 $("#rdm").html(data);
                 Docentes();
+                
             };
         Llamado(url,llevo,hacer);
     });
@@ -34,29 +35,11 @@
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#rdm").html(data);
-                
-            };
-        Llamado(url,llevo,hacer);
-    });
-    
-    $("#DeleteDocentes").click(function(){
-             
-            var url= "RDM/Administrador/deletedocentes.html";
-            var llevo= "acceso=true";
-            var hacer=function(data){
-                $("#rdm").html(data);
-                
-            };
-        Llamado(url,llevo,hacer);
-    });
-    
-    $("#ChangeDocentes").click(function(){
-             
-            var url= "RDM/Administrador/changedocentes.html";
-            var llevo= "acceso=true";
-            var hacer=function(data){
-                $("#rdm").html(data);
-                
+               registarDocente(); 
+               listarDocente();
+               eliminar();
+               eliminarTodo();
+
             };
         Llamado(url,llevo,hacer);
     });
@@ -67,12 +50,19 @@
             var llevo= "acceso=true";
             var hacer=function(data){
                 $("#rdm").html(data);
-                
+               registarDocente(); 
+               listarDocente();
+               eliminar();
+               eliminarTodo();
+
             };
         Llamado(url,llevo,hacer);
     });
+    
+    
      
     }
+    
     function idDocente(){
         var id=0;
         var limite=localstorage.length;
@@ -112,20 +102,24 @@
         
         return permiso;
     }
-    
+   
+   
     function registarDocente (){
         $("#regdoc").validate({
            rules:{
               nomdoc:{
                   required:true,
+                  range: [3,20],
                   rangelenght:[3,20]
               } ,
               apedoc:{
                   required:true,
+                  range: [3,20],
                   rangelenght:[3,20]
               } ,
               ccdoc:{
                   required:true,
+                  range: [3,9],
                   rangelenght:[6,10],
                   digits:true
               } 
@@ -153,38 +147,26 @@
     }
     
     function listarDocente (){
-        $("#regdoc").validate({
-           rules:{
-              nomdoc:{
-                  required:true,
-                  rangelenght:[3,20]
-              } ,
-              apedoc:{
-                  required:true,
-                  rangelenght:[3,20]
-              } ,
-              ccdoc:{
-                  required:true,
-                  rangelenght:[6,10]
-              } 
-           }, 
-           submitHandler:function(){
-               var iddo=idDocente();
-               var docente={
-                 id:iddo(),
-                 nom:$("#nomdoc").val(),  
-                 ape:$("#apedoc").val(),
-                 cc:$("#ccdoc").val(),
-                 type:"doc"
-               };
-               localstorage.getItem("doc",iddo,JSON.stringify(docente));
+       localstorage.setItem("doc",iddo,JSON.stringify(docente));
                $("#nomdoc").val("");
                $("#apedoc").val("");
                $("#ccdoc").val("");
-               alert("El docente"+docente.nom+"fue almacenado");
-           }
-        });
+               alert("El docente "+docente.nom+"estaba almacenado");
     }
+    
+    function eliminar(clave) {
+        if (confirm('Está Seguro?')) {
+            localStorage.removeItem(clave);
+            mostrar();
+        }
+    }
+    
+    function eliminarTodo() {
+        if (confirm('Está Seguro?')) {
+            localStorage.clear();
+            mostrar();
+        }
+}
     
 });
  
