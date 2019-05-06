@@ -1,7 +1,7 @@
  
- $ (document).ready(function(){
+ $(document).ready(function(){
      
-     function Llamado(donde,quellevo,hacer){   
+     function Llamado(donde, quellevo, hacer){
         $.ajax({
             url: donde,
             data: quellevo,
@@ -74,8 +74,8 @@
      
     }
     function idDocente(){
-        var id=o;
-        var limite=localstorage.length;
+        var id = 0;
+        var limite = localstorage.length;
         try{
            for(var i=0;i<limite;i++){
             var key= localstorage.key(i); 

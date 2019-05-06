@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c822e25c-cd12-48cd-90b4-d18034078c97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Modulos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/cristhiandgz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/LogicaAdministrador.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/LogicaAdministrador.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,18 +19,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Modulos/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+            <state relative-caret-position="301">
+              <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Efectos.css">
+        <entry file="file://$PROJECT_DIR$/JS/LogicaAdministrador.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modulos/RDM/Administrador/addestudiante.html">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -38,16 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Modulos/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/proyecto-web.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/JS/LogicaAdministrador.js" />
+        <option value="$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html" />
       </list>
     </option>
   </component>
@@ -72,7 +86,25 @@
             <path>
               <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
+              <item name="RDM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
+              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
+              <item name="RDM" type="462c0819:PsiDirectoryNode" />
+              <item name="Administrador" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -85,6 +117,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,19 +151,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557162755668</updated>
-      <workItem from="1557162758747" duration="2343000" />
+      <workItem from="1557162758747" duration="6367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2343000" />
+    <option name="totallyTimeSpent" value="6367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16505577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23345725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -168,10 +201,38 @@
     <entry file="file://$PROJECT_DIR$/css/Efectos.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS/Acciones.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2294" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/acciones2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Modulos/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        <state relative-caret-position="301">
+          <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modulos/RDM/Administrador/adddocentes.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/LogicaAdministrador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modulos/RDM/Administrador/addestudiante.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>
