@@ -18,15 +18,29 @@
     } 
     
     $("#Administrador").click(function(){        
-            var url= "RDM/Administrador/menuadmin.html";
-            var llevo= "acceso=true";
-            var hacer=function(data){
+            let url= "RDM/Administrador/menuadmin.html";
+            let llevo= "acceso=true";
+            let hacer = function(data){
                 $("#rdm").html(data);
                 Administrador();
             };
         Llamado(url,llevo,hacer);
     });
-    
+
+     //Menú administrador
+     //----Crear estudiante
+     $(document).on("click", "#crear_est", function () {
+         let url = "RDM/Administrador/addestudiante.html";
+         let llevo = "acceso=true";
+         let hacer = function(data){
+             $("#rdm").html(data);
+             //Administrador();
+         };
+         Llamado(url,llevo,hacer);
+     });
+    //-----Menú adminstrador
+
+
     function Administrador(){
         $("#ADDDocentes").click(function(){
              
