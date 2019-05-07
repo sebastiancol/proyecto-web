@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c822e25c-cd12-48cd-90b4-d18034078c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Modulos/RDM/Estudiantes/addestudiante.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/LogicaAdministrador.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/LogicaAdministrador.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/LogicaEstudiantes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/acciones2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/acciones2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulos/RDM/Administrador/addestudiante.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/RDM/Administrador/menuadmin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulos/RDM/Estudiantes/listmaterias.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/RDM/Estudiantes/listaEstudiantes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Efectos.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Efectos.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,13 +15,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS/LogicaEstudiantes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="210" column="32" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
+              <caret line="210" column="42" lean-forward="true" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -89,36 +85,6 @@
               <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="JS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
-              <item name="RDM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
-              <item name="RDM" type="462c0819:PsiDirectoryNode" />
-              <item name="Administrador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proyecto-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proyecto-web" type="462c0819:PsiDirectoryNode" />
-              <item name="Modulos" type="462c0819:PsiDirectoryNode" />
-              <item name="RDM" type="462c0819:PsiDirectoryNode" />
-              <item name="Estudiantes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557162755668</updated>
-      <workItem from="1557162758747" duration="22552000" />
+      <workItem from="1557162758747" duration="23067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22552000" />
+    <option name="totallyTimeSpent" value="23067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -186,7 +152,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
@@ -283,9 +249,12 @@
     <entry file="file://$PROJECT_DIR$/JS/LogicaEstudiantes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="210" column="32" selection-start-line="210" selection-start-column="32" selection-end-line="210" selection-end-column="32" />
+          <caret line="210" column="42" lean-forward="true" selection-start-line="210" selection-start-column="42" selection-end-line="210" selection-end-column="42" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
