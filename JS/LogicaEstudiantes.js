@@ -208,8 +208,8 @@ $ (document).ready(function(){
                 let key = localStorage.key(i);
                 let obj = JSON.parse(localStorage.getItem(key));
                 if(obj.type === "est"){
-                    if(obj.id === obj.id){
-                        id++;
+                    if(obj.id > id){
+                        id = obj.id;
                     }
                 }
             }
@@ -217,9 +217,7 @@ $ (document).ready(function(){
             console.error("metodo generarId presenta falla");
         }
 
-        return id;
+        return id+1;
     }
-
-
 
 });
