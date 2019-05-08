@@ -6,7 +6,7 @@ $ (document).ready(function(){
         $.ajax({
             url: donde,
             data: quellevo,
-            type: 'POST',
+            type: 'GET',
             dataType: 'html',            
             success: function (data) {
               hacer(data);  

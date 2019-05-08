@@ -1,33 +1,31 @@
  
- $ (document).ready(function(){
+ $(document).ready(function(){
      
-     function Llamado(donde,quellevo,hacer){   
+     function Llamado(donde,quellevo,hacer){
         $.ajax({
             url: donde,
             data: quellevo,
-            type: 'POST',
+            type: 'GET',
             dataType: 'html',            
             success: function (data) {
               hacer(data);  
             },            
             error: function (xhr, status) {
                 alert('Disculpe, existió un problema');
-            },
-            
+            }
         });
-    } 
+     }
     
-    $("#Docentes").click(function(){        
-            var url= "RDM/Administrador/opciones.html";
-            var llevo= "acceso=true";
-            var hacer=function(data){
+    $("#Docente").click(function(){        
+            let url= "RDM/Docentes/menudoc.html";
+            let llevo= "acceso=true";
+            let hacer = function(data){
                 $("#rdm").html(data);
-                Docentes();
-                
             };
         Llamado(url,llevo,hacer);
     });
-    
+		
+	
     function Docentes(){
         $("#AddDocentes").click(function(){
              
@@ -109,17 +107,14 @@
            rules:{
               nomdoc:{
                   required:true,
-                  range: [3,20],
                   rangelenght:[3,20]
               } ,
               apedoc:{
                   required:true,
-                  range: [3,20],
                   rangelenght:[3,20]
               } ,
               ccdoc:{
                   required:true,
-                  range: [3,9],
                   rangelenght:[6,10],
                   digits:true
               } 
@@ -166,8 +161,8 @@
             localStorage.clear();
             mostrar();
         }
-}
-    
+	}
+	
+	    
 });
- 
  

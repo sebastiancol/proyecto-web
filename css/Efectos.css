@@ -45,3 +45,14 @@ img{
 .error{
     color:red;
 }
+
+/*Estilos RDM*/
+
+.list-group-item{
+  cursor: pointer;
+}
+
+.list-group-item:hover{
+  background-color: #b1b1b1;
+  color: white;
+}
